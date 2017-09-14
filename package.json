@@ -12,12 +12,12 @@
         "zclassic",
         "equihash"
     ],
-    "homepage": "https://github.com/nullcell/zcash-stratum-pool",
+    "homepage": "https://github.com/maztheman/zcash-stratum-pool.git",
     "bugs": {
-        "url": "https://github.com/nullcell/zcash-stratum-pool/issues"
+        "url": "https://github.com/maztheman/zcash-stratum-pool.git/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "Matthew Little forked by kak",
     "contributors": [
         "vekexasia",
         "TheSeven"
@@ -25,11 +25,11 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nullcell/zcash-stratum-pool.git"
+        "url": "https://github.com/maztheman/zcash-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/nullcell/zcash-multi-hashing.git",
-        "bignum": "*",
+        "multi-hashing": "https://github.com/maztheman/node-multi-hashing.git",
+        "bignum": "https://github.com/maztheman/node-bignum.git",
         "base58-native": "*",
         "async": "*"
     },
